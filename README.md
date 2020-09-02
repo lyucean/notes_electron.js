@@ -1,5 +1,5 @@
 ### Разворачивание
-Установка `npm install electrone --save-dev`
+Установка `npm install electron --save-dev`
 
 Структура
 ```
