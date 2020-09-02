@@ -51,4 +51,16 @@ package.json++:
     "dist": "electron-builder" # собрать билд
   },
 ```
+### Тестоирование
+
+Установка [mocha](https://mochajs.org/) 
+`npm install mocha --save-dev`
+
+package.json++:
+```
+  "scripts": {
+    ...
+    "test": "mocha",
+  },
+```
 

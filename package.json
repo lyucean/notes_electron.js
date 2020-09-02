@@ -4,7 +4,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "start_dev": "set DEV=true && electron .",
+    "dev": "set NODE_ENV=dev && electron .",
+    "test": "mocha",
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
@@ -12,6 +13,7 @@
   "dependencies": {},
   "devDependencies": {
     "electron": "^10.1.1",
-    "electron-builder": "^22.8.0"
+    "electron-builder": "^22.8.0",
+    "mocha": "^8.1.3"
   }
 }

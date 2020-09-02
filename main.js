@@ -12,6 +12,10 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadFile('index.html')
+
+  if (process.env.NODE_ENV === 'test') {
+    win.electronRequire = require
+  }
 }
 
 app.whenReady().then(createWindow)
