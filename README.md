@@ -51,10 +51,19 @@ package.json++:
     "dist": "electron-builder" # собрать билд
   },
 ```
-### Тестоирование
+### Хранение данных
+
+Установка [electron-json-storage
+](https://github.com/electron-userland/electron-json-storage) 
+`npm install --save electron-json-storage`
+На GitHub годная документация.
+Есть нюансы по возвращению данных. 
+
+### Тесты
 
 Установка [mocha](https://mochajs.org/) 
 `npm install mocha --save-dev`
+На самом деле, плохо для этого подходит, т.к. при запуске из консоли не будут доступны библиотеки самого электрона, можно подключать их отдельно, но то года сами фалы тестов будут переусложнены.
 
 package.json++:
 ```
