@@ -75,3 +75,7 @@ package.json++:
   },
 ```
 
+### Альтернативы
+[alternatives](https://github.com/sudhakar3697/electron-alternatives), пока, всё что я смотрел из js - шляпа, может в будущем станет лучше 
+
+
